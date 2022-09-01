@@ -35,7 +35,7 @@ def main():
                 errorMsg('Number Contains Unsupported Characters.')
                 startUp = False
                 break
-            if supportedChars.index(i) > int(baseI):
+            if supportedChars.index(i) >= int(baseI):
                 errorMsg('Nononono, the base is all wrong!')
                 startUp = False
                 break
